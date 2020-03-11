@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/media/psf/Home/taraxa/earth/src/comm/io.c" "/media/psf/Home/taraxa/earth/build/CMakeFiles/earth.dir/src/comm/io.c.o"
-  "/media/psf/Home/taraxa/earth/src/comm/uart.c" "/media/psf/Home/taraxa/earth/build/CMakeFiles/earth.dir/src/comm/uart.c.o"
-  "/media/psf/Home/taraxa/earth/src/main.c" "/media/psf/Home/taraxa/earth/build/CMakeFiles/earth.dir/src/main.c.o"
-  "/media/psf/Home/taraxa/earth/src/platform/x_uart.c" "/media/psf/Home/taraxa/earth/build/CMakeFiles/earth.dir/src/platform/x_uart.c.o"
+  "/home/chester/earth/src/comm/io.c" "/home/chester/earth/build/CMakeFiles/earth.dir/src/comm/io.c.o"
+  "/home/chester/earth/src/comm/uart.c" "/home/chester/earth/build/CMakeFiles/earth.dir/src/comm/uart.c.o"
+  "/home/chester/earth/src/main.c" "/home/chester/earth/build/CMakeFiles/earth.dir/src/main.c.o"
+  "/home/chester/earth/src/platform/x_uart.c" "/home/chester/earth/build/CMakeFiles/earth.dir/src/platform/x_uart.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

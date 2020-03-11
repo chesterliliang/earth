@@ -18,8 +18,12 @@ void reading(void)
 {
     UINT8 *str = "READY";
     UINT8* done = "OK";
+    UINT8* dis = "DISCONNECTED";
     UINT8 response[256] = { 0 };
     UINT8 phrase = 0;
+    UINT8* cmd6 = "AT+MQTTCONN=\"121.36.3.243\",61613,\"testid12113\",600,0,\"admin\",\"password\"\r\n";
+    UINT8* cmd8 ="AT+MQTTSUB=\"/up/post_machine/0x59f252d69712a4261a3eef3cd5fb122911a90254\",1,0\r\n";
+
      while(1)
      {
         memset(response,0,256);
@@ -33,6 +37,11 @@ void reading(void)
         }else if(phrase==1){
             if(strstr(response,done)){
                 sem_post(&sem); //为信号量加1
+            }
+            if(strstr(response,dis)){
+                prime_write(cmd6, strlen(cmd6));
+                usleep(10000000);
+                prime_write(cmd8, strlen(cmd8));
             }
         }
         
@@ -84,7 +93,7 @@ int main(void)
         printf("-----test count %d ------\n",i);
         sem_wait(&sem);
         prime_write(cmd7, strlen(cmd7));
-        usleep(5000000);
+        usleep(60000000);
     }
     
 

@@ -1,1 +1,1 @@
-/usr/bin/cc -O3 -DNDEBUG  -rdynamic CMakeFiles/earth.dir/src/main.c.o CMakeFiles/earth.dir/src/comm/io.c.o CMakeFiles/earth.dir/src/comm/uart.c.o CMakeFiles/earth.dir/src/platform/x_uart.c.o  -o earth  -lpthread 
+/usr/bin/cc  -O3 -DNDEBUG   CMakeFiles/earth.dir/src/main.c.o CMakeFiles/earth.dir/src/comm/uart.c.o CMakeFiles/earth.dir/src/comm/io.c.o CMakeFiles/earth.dir/src/platform/x_uart.c.o  -o earth -rdynamic -lpthread 

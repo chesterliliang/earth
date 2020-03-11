@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,21 +6,55 @@
 
 #IncludeRegexTransform: 
 
-../src/comm/io.h
+.././src/comm/io.h
 
-/media/psf/Home/taraxa/earth/src/config.h
+.././src/config.h
 
-/media/psf/Home/taraxa/earth/src/def.h
+.././src/def.h
 config.h
-/media/psf/Home/taraxa/earth/src/config.h
+.././src/config.h
 platform/x_uart.h
-/media/psf/Home/taraxa/earth/src/platform/x_uart.h
+.././src/platform/x_uart.h
 unistd.h
 -
 string.h
 -
 
-/media/psf/Home/taraxa/earth/src/main.c
+.././src/platform/x_uart.h
+
+/home/chester/earth/src/comm/io.c
+def.h
+/home/chester/earth/src/comm/def.h
+uart.h
+/home/chester/earth/src/comm/uart.h
+io.h
+/home/chester/earth/src/comm/io.h
+
+/home/chester/earth/src/comm/io.h
+
+/home/chester/earth/src/comm/uart.c
+def.h
+/home/chester/earth/src/comm/def.h
+x_uart.h
+/home/chester/earth/src/comm/x_uart.h
+uart.h
+/home/chester/earth/src/comm/uart.h
+
+/home/chester/earth/src/comm/uart.h
+
+/home/chester/earth/src/config.h
+
+/home/chester/earth/src/def.h
+config.h
+/home/chester/earth/src/config.h
+platform/x_uart.h
+/home/chester/earth/src/platform/x_uart.h
+unistd.h
+-
+string.h
+-
+
+/home/chester/earth/src/main.c
 stdio.h
 -
 string.h
@@ -34,11 +68,27 @@ semaphore.h
 sys/sem.h
 -
 config.h
-/media/psf/Home/taraxa/earth/src/config.h
+/home/chester/earth/src/config.h
 def.h
-/media/psf/Home/taraxa/earth/src/def.h
+/home/chester/earth/src/def.h
 io.h
-/media/psf/Home/taraxa/earth/src/io.h
+/home/chester/earth/src/io.h
 
-/media/psf/Home/taraxa/earth/src/platform/x_uart.h
+/home/chester/earth/src/platform/x_uart.c
+stdio.h
+-
+fcntl.h
+-
+termios.h
+-
+unistd.h
+-
+errno.h
+-
+x_uart.h
+/home/chester/earth/src/platform/x_uart.h
+TargetConditionals.h
+/home/chester/earth/src/platform/TargetConditionals.h
+
+/home/chester/earth/src/platform/x_uart.h
 
