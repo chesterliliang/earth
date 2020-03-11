@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/comm/io.h
+
+/media/psf/Home/taraxa/earth/src/config.h
+
+/media/psf/Home/taraxa/earth/src/def.h
+config.h
+/media/psf/Home/taraxa/earth/src/config.h
+platform/x_uart.h
+/media/psf/Home/taraxa/earth/src/platform/x_uart.h
+unistd.h
+-
+string.h
+-
+
+/media/psf/Home/taraxa/earth/src/main.c
+stdio.h
+-
+string.h
+-
+assert.h
+-
+pthread.h
+-
+semaphore.h
+-
+sys/sem.h
+-
+config.h
+/media/psf/Home/taraxa/earth/src/config.h
+def.h
+/media/psf/Home/taraxa/earth/src/def.h
+io.h
+/media/psf/Home/taraxa/earth/src/io.h
+
+/media/psf/Home/taraxa/earth/src/platform/x_uart.h
+
